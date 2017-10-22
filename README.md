@@ -17,7 +17,7 @@ That's all.
 ## Example
 See `usage_example.py` file for a minimal example.
 
-The example below show: (a) the default Matplotlib 2.1.0 plotting style and 
+The examples below show: (a) the default Matplotlib 2.1.0 plotting style and 
 (b) using timesnromanstyle.mplstyle.
 
 ![example_default](https://user-images.githubusercontent.com/21266453/31866944-e4e05380-b743-11e7-82b9-b8fa722f2fa0.png)
