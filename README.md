@@ -6,12 +6,11 @@ For my own usage, but  might be of interest of someone else.
 ## Usage
 On top of you `python`🐍 script add the following lines
 
-`import matplotlib.pyplot as plt
+`import matplotlib.pyplot as plt`
 
-path = '~/Documents/FolderWhereYourStyleSheetIsLocated/
+`path = '~/Documents/FolderWhereYourStyleSheetIsLocated/`
 
-plt.style.use(path + 'timesnromanstyle.mplstyle')'
-`
+`plt.style.use(path + 'timesnromanstyle.mplstyle')'`
 
 That's all.
 
