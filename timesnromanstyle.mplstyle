@@ -1,0 +1,67 @@
+### Axes
+axes.titlesize : 13
+axes.labelsize : 12
+
+### Lines
+lines.linewidth : 1.0
+lines.markersize : 10
+
+patch.antialiased   : True
+
+### Ticks
+xtick.top: True
+xtick.bottom: True
+xtick.major.size: 5.5
+xtick.minor.size: 3.5
+xtick.major.width: 0.5
+xtick.minor.width: 0.5
+xtick.direction: in
+xtick.minor.visible: True
+xtick.major.top: True
+xtick.major.bottom: True
+xtick.minor.top: True
+xtick.minor.bottom: True
+xtick.major.pad: 5.0
+xtick.minor.pad: 5.0
+ytick.labelsize: 10
+
+ytick.left: True
+ytick.right: True
+ytick.major.size: 5.5
+ytick.minor.size: 3.5
+ytick.major.width: 0.5
+ytick.minor.width: 0.5
+ytick.direction: in
+ytick.minor.visible: True
+ytick.major.left: True
+ytick.major.right: True
+ytick.minor.left: True
+ytick.minor.right: True
+ytick.major.pad: 5.0
+ytick.minor.pad: 5.0
+xtick.labelsize: 10
+
+### Legend
+legend.frameon: False
+legend.fontsize: 10
+
+### Figure size
+figure.figsize: 5.0, 3.0
+figure.subplot.left: 0.125
+figure.subplot.bottom: 0.175
+figure.subplot.top: 0.95
+figure.subplot.right: 0.95
+figure.autolayout : False
+
+### Fonts
+mathtext.fontset : stix
+font.family: serif
+font.serif: Times New Roman
+#mathtext.rm  : serif
+#mathtext.bf  : serif:bold
+#mathtext.tt  : monospace
+#mathtext.it  : serif:italic
+#mathtext.default: rm
+
+### Saving figures
+path.simplify : True
