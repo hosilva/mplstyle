@@ -1,7 +1,7 @@
 # mplstyle
 A collection of customized matplotlib styles sheets. 
 
-For my own usage, but  might be of interest of someone else.
+For my own usage, but  might be of interest for someone else.
 
 ## Usage
 At the begining of your `python`🐍 script add the following lines:
