@@ -4,7 +4,7 @@ A collection of customized matplotlib styles sheets.
 For my own usage, but  might be of interest of someone else.
 
 ## Usage
-On top of you `python`🐍 script add the following lines
+At the begining of your `python`🐍 script add the following lines:
 
 `import matplotlib.pyplot as plt`
 
@@ -15,7 +15,7 @@ On top of you `python`🐍 script add the following lines
 That's all.
 
 ## Example
-See `usage_example.py` file.
+See `usage_example.py` file for a minimal example.
 
 ## References
 More details [here](https://matplotlib.org/users/customizing.html).
