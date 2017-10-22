@@ -1,2 +1,8 @@
 # mplstyle
-Collection of customized matplotlib styles sheets
+A collection of customized matplotlib styles sheets
+
+## Usage
+Coming soon.
+
+## Example
+Coming soon.
