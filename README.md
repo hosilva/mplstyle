@@ -1,11 +1,19 @@
 # mplstyle
-A collection of customized matplotlib styles sheets
+A collection of customized matplotlib styles sheets. For my own usage, but 
+might be of interest of someone else.
 
 ## Usage
-Coming soon.
+On top of you `python`🐍 script add the following lines
+
+`import matplotlib.pyplot as plt
+path = '~/Documents/FolderWhereYourStyleSheetIsLocated/
+plt.style.use(path + 'timesnromanstyle.mplstyle')'
+`
+
+That's all.
 
 ## Example
-Coming soon.
+See `usage_example.py` file.
 
 ## References
-Coming soon.
+More details [here](https://matplotlib.org/users/customizing.html).
