@@ -1,5 +1,5 @@
 # mplstyle
-A collection of customized matplotlib styles sheets. 
+A collection of customized [Matplotlib](http://matplotlib.org) styles sheets. 
 
 For my own usage, but  might be of interest for someone else.
 
