@@ -12,7 +12,7 @@ path = '~/Documents/FolderWhereYourStyleSheetIsLocated/
 plt.style.use(path + 'timesnromanstyle.mplstyle')
 ~~~~
 
-That's all.
+That's all. 😎
 
 ## Description of style sheets
 
