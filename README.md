@@ -51,6 +51,30 @@ it might take longer than normal to generate the output.
 (`computermodernstyle.mplstyle`)
 ![example_tmnroman](example_computermodern.png)
 
+## Color cycle example
+
+Here is a color cycle based on color scheme used 
+in [Waseda University](https://www.waseda.jp/top/en)'s website. It's quite nice. To use it, add
+
+```python
+from cycler import cycler
+# Waseda colors
+wred = '#920527'
+wblk = '#252427'
+wblu = '#094C90'
+wgra = '#757A7D'
+wgrn = '#81990B'
+wbrw = '#714D2A'
+wyel = '#FDD003'
+worg = '#D08B16'
+wcya = '#02A0DA'
+plt.rc('axes', prop_cycle=(cycler('color', [wblk, wred, wblu, wgra, wgrn, wbrw, wyel, worg, wcya])))
+```
+
+to your script. Here is an example:
+
+(`Waseda color cycle`)
+![example_waseda](example_waseda.png)
 
 ## References
 More details [here](https://matplotlib.org/users/customizing.html).
