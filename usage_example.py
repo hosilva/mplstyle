@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
-path = '~/Documents/work/git_work/mplstyle/'
-plt.style.use(path + 'timesnromanstyle.mplstyle')
+path = '~/Documents/work/aux/mplstyle/'
+plt.style.use(path + 'computermodernstyle.mplstyle')
+#plt.style.use(path + 'timesnromanstyle.mplstyle')
+
 import numpy as np
 
 # What we want to plot
@@ -22,6 +24,6 @@ ax.plot(xvalues, vec_linear(xvalues, 1.2))
 ax.plot(xvalues, vec_linear(xvalues, 1.4))
 ax.plot(xvalues, vec_linear(xvalues, 1.5))
 
-ax.legend(['Curve 1', 'Curve 2', 'Curve 3', 'Curve 4'])
+ax.legend([r'Curve 1 $\mathcal{G}$', 'Curve 2', 'Curve 3', 'Curve 4'])
 
-plt.savefig('example_tnrstyle.jpg')
+plt.savefig('example_computermodern.png', dpi=1000)

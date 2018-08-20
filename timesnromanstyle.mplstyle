@@ -1,18 +1,19 @@
 ### Axes
-axes.titlesize : 13
-axes.labelsize : 12
+axes.titlesize : large
+axes.labelsize : large
 
 ### Lines
 lines.linewidth : 1.0
 lines.markersize : 10
+hatch.linewidth: 0.25
 
 patch.antialiased   : True
 
 ### Ticks
 xtick.top: True
 xtick.bottom: True
-xtick.major.size: 5.5
-xtick.minor.size: 3.5
+xtick.major.size: 4.0
+xtick.minor.size: 2.0
 xtick.major.width: 0.5
 xtick.minor.width: 0.5
 xtick.direction: in
@@ -23,12 +24,12 @@ xtick.minor.top: True
 xtick.minor.bottom: True
 xtick.major.pad: 5.0
 xtick.minor.pad: 5.0
-ytick.labelsize: 10
+ytick.labelsize: large
 
 ytick.left: True
 ytick.right: True
-ytick.major.size: 5.5
-ytick.minor.size: 3.5
+ytick.major.size: 4.0
+ytick.minor.size: 2.0
 ytick.major.width: 0.5
 ytick.minor.width: 0.5
 ytick.direction: in
@@ -39,7 +40,7 @@ ytick.minor.left: True
 ytick.minor.right: True
 ytick.major.pad: 5.0
 ytick.minor.pad: 5.0
-xtick.labelsize: 10
+xtick.labelsize: large
 
 ### Legend
 legend.frameon: False
@@ -57,6 +58,7 @@ figure.autolayout : False
 mathtext.fontset : stix
 font.family: serif
 font.serif: Times New Roman
+font.weight: light
 #mathtext.rm  : serif
 #mathtext.bf  : serif:bold
 #mathtext.tt  : monospace
