@@ -53,6 +53,7 @@ it might take longer than normal to generate the output.
 
 ## Color cycle example
 
+### Waseda color cycle
 Here is a color cycle based on color scheme used 
 in [Waseda University](https://www.waseda.jp/top/en)'s website. It's quite nice. To use it, add
 
@@ -75,6 +76,32 @@ to your script. Here is an example:
 
 (`Waseda color cycle`)
 ![example_waseda](example_waseda.png)
+
+### Mathematica color cycle
+
+Here is a color cycle based om `Mathematica 10`. See [here](https://mathematica.stackexchange.com/questions/54629/what-are-the-standard-colors-for-plots-in-mathematica-10) for how to get the RGB color code for Mathematica's default palette.
+
+Add the following,
+
+```python
+from cycler import cycler
+# Mathematica colours
+colour_01 = (0.368417, 0.506779, 0.709798)
+colour_02 = (0.880722, 0.611041, 0.142051)
+colour_03 = (0.560181, 0.691569, 0.194885)
+colour_04 = (0.922526, 0.385626, 0.209179)
+colour_05 = (0.528488, 0.470624, 0.701351)
+colour_06 = (0.772079, 0.431554, 0.102387)
+colour_07 = (0.363898, 0.618501, 0.782349)
+colour_08 = (1, 0.75, 0)
+colour_09 = (0.647624, 0.37816, 0.614037)
+plt.rc('axes', prop_cycle=(cycler('color', [colour_01, colour_02, colour_03, colour_04, colour_05, colour_06, colour_07, colour_08, colour_09])))
+```
+
+to your script. Here is an example:
+
+(`Mathematica color cycle`)
+![example_mathematica](example_mathematica.png)
 
 ## References
 More details [here](https://matplotlib.org/users/customizing.html).
