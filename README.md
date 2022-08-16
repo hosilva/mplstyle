@@ -103,5 +103,19 @@ to your script. Here is an example:
 (`Mathematica color cycle`)
 ![example_mathematica](example_mathematica.png)
 
+Here are the colors in hexadecimal format, if necessary,
+
+```python
+colour_01 = #5d81b4
+colour_02 = #e09b24
+colour_03 = #8eb031
+colour_04 = #eb6235
+colour_05 = #8678b2
+colour_06 = #c46e1a
+colour_07 = #5c9dc7
+colour_08 = #ffbf00
+colour_09 = #a5609c
+```
+
 ## References
 More details [here](https://matplotlib.org/users/customizing.html).
