@@ -18,5 +18,5 @@ for colours in maths_colours:
     rgb = ( colours * 255 ).astype(int)
     hex_string = "#" + hex(rgb[0])[-2:] + hex(rgb[1])[-2:] + hex(rgb[2])[-2:]
     hex_string_no_x = hex_string.replace("x","0")
-    print("colour_0" + str(i) + " = " + hex_string_no_x)
+    print("colour_0" + str(i) + " = " + "'" + hex_string_no_x + "'")
     i+=1
