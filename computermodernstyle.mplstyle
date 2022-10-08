@@ -1,6 +1,7 @@
 ### Axes
 axes.titlesize : large
 axes.labelsize : large
+axes.formatter.use_mathtext : True
 
 ### Lines
 lines.linewidth : 1.0
@@ -55,9 +56,9 @@ figure.subplot.right: 0.95
 figure.autolayout : False
 
 ### Fonts
+mathtext.fontset : cm
 font.family: serif
-font.serif: Computer Modern Roman 
-text.usetex : true
+font.serif: cmr10
 
 ### Saving figures
 path.simplify : True
